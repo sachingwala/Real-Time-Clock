@@ -12,3 +12,8 @@ Customizable Timezone: Display the time in different time zones.
 Digital and Analog Views: Optionally, use either a digital clock or an analog clock view.
 Time Display: Display the current time, including hours, minutes, and seconds.
 User-Friendly Interface: Easy-to-use graphical interface
+
+Requirements
+HTML
+CSS 
+JAVASCRIPT
