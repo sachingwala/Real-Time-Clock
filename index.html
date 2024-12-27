@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="style.css">
+	<title>BMI-CALCULETOR</title>
+</head>
+<body>
+	<div class="box">
+		<h1>Here Check your BMI weight</h1>
+		<form>
+        <p><label>height in CM:</label><input type="text" id="height" ></p>
+        <p><label>weight in CM:</label><input type="text" id="weight" ></p>
+         <button>calculate</button>
+         <div id="result"></div>
+         <div class="wegiht-guide">
+         	<h2>ideal BMI weights</h2>
+         	<p id="Under"> Under Weight = less than 18.6</p>
+         	<p id="Normal">Normal weight = 18.6 to 24.4</p>
+         	<p id="Over"> Over Weight = greter than 24.4</p>
+         	 <p id="bmiCategory"></p>
+         </div>  
+        </form>
+	</div>
+</body>
+<script src="main.js"></script>
+</html>
